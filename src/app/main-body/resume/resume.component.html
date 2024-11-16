@@ -1,0 +1,166 @@
+<section class="resume" id="resume">
+  <div class="resume-container">
+    <div class="resume-box">
+      <h2 class="heading2">Why Hire me?</h2>
+      <p class="desc">
+        Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum non
+        cursus interdum dignissim ullamcorper neque.
+      </p>
+
+      <button class="resume-btn active">Experience</button>
+      <button class="resume-btn">Education</button>
+      <button class="resume-btn">Certifications</button>
+      <button class="resume-btn">Skills</button>
+      <button class="resume-btn">Personal Details</button>
+    </div>
+
+    <!------------ Experience --------------->
+    <div class="resume-box">
+      <div class="resume-detail experience active">
+        <h2 class="resume-heading">My <span>Experience</span></h2>
+        <p class="desc">
+          Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum non
+          cursus interdum dignissim ullamcorper neque.
+        </p>
+        <div class="resume-list">
+          <div class="resume-item" *ngFor="let items of experience">
+            <p class="year">{{ items.year }}</p>
+            <h3>{{ items.title }}</h3>
+            <p class="company">{{ items.company }}</p>
+            <p *ngFor="let info of items.information">
+              {{ info }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!------------ Education --------------->
+      <div class="resume-detail education">
+        <h2 class="resume-heading">My <span>Education</span></h2>
+        <p class="desc">
+          Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum non
+          cursus interdum dignissim ullamcorper neque.
+        </p>
+        <div class="resume-list">
+          <div class="resume-item" *ngFor="let items of education">
+            <p class="year">{{ items.year }}</p>
+            <h3>{{ items.title }}</h3>
+            <p class="company">{{ items.institution }}</p>
+            <p>
+              {{ items.information }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!------------ Certifications --------------->
+      <div class="resume-detail certification">
+        <h2 class="resume-heading">
+          My <span>Licenses and Certifications</span>
+        </h2>
+        <p class="desc">
+          Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum non
+          cursus interdum dignissim ullamcorper neque.
+        </p>
+        <div class="resume-list">
+          <div class="resume-item">
+            <h3>Data Protection Awareness</h3>
+            <p class="year">Equity Group Academy</p>
+            <p>Issued Nov 2024</p>
+            <p>Credential ID umfnfaFAFNfnfafd</p>
+            <p class="cert-link">
+              View certificate
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h3>Data Protection Awareness</h3>
+            <p class="year">Equity Group Academy</p>
+            <p>Issued Nov 2024</p>
+            <p>Credential ID umfnfaFAFNfnfafd</p>
+            <p class="cert-link">
+              View certificate
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h3>Data Protection Awareness</h3>
+            <p class="year">Equity Group Academy</p>
+            <p>Issued Nov 2024</p>
+            <p>Credential ID umfnfaFAFNfnfafd</p>
+            <p class="cert-link">
+              View certificate
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h3>Data Protection Awareness</h3>
+            <p class="year">Equity Group Academy</p>
+            <p>Issued Nov 2024</p>
+            <p>Credential ID umfnfaFAFNfnfafd</p>
+            <p class="cert-link">
+              View certificate
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h3>Data Protection Awareness</h3>
+            <p class="year">Equity Group Academy</p>
+            <p>Issued Nov 2024</p>
+            <p>Credential ID umfnfaFAFNfnfafd</p>
+            <p class="cert-link">
+              View certificate
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h3>Data Protection Awareness</h3>
+            <p class="year">Equity Group Academy</p>
+            <p>Issued Nov 2024</p>
+            <p>Credential ID umfnfaFAFNfnfafd</p>
+            <p class="cert-link">
+              View certificate
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!------------ Skills --------------->
+      <div class="resume-detail skills">
+        <h2 class="resume-heading">My <span>Skills and attributes</span></h2>
+        <p class="desc">
+          Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum non
+          cursus interdum dignissim ullamcorper neque.
+        </p>
+        <div class="resume-list">
+          <div class="resume-item" *ngFor="let items of Skills">
+            <i class="{{ items.icon }}"></i>
+            <span>{{ items.skillName }}</span>
+            <h5>{{ items.information }}</h5>
+          </div>
+        </div>
+      </div>
+
+      <!------------personal information--------------->
+      <div class="resume-detail more" id="more-detail">
+        <h2 class="resume-heading">Personal <span>Details</span></h2>
+        <p class="desc">
+          In the personal information section of my CV, I provide a brief
+          overview of who I am and make it easy for potential employers to
+          contact me. I also list my phone number and email address to ensure
+          I’m easily reachable. This section is a snapshot of my identity and
+          readiness to contribute professionally.
+        </p>
+
+        <div class="resume-list">
+          <div class="resume-item" *ngFor="let items of personalInformation">
+            <p>
+              {{ items.name }} <span>{{ items.item }}</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
