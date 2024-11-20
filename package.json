@@ -2,9 +2,9 @@
   "name": "felix-portfolio-a",
   "version": "0.0.0",
   "scripts": {
-    "start": "node dist/felix-portfolio-a/server/main.js",
-    "build": "ng build --configuration production && ng run felix-portfolio-a:server",
-    "serve:ssr": "node dist/felix-portfolio-a/server/main.js",
+    "start": "node dist/MgPortfolio/server/main.js",
+    "build": "ng build --configuration production && ng run MgPortfolio:server",
+    "serve:ssr": "node dist/MgPortfolio/server/main.js",
     "buildP": "ng build --configuration production",
     "serve": "ng serve",
     "watch": "ng build --watch --configuration development",
