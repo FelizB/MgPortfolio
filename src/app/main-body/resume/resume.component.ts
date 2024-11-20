@@ -81,7 +81,62 @@ export class ResumeComponent {
       ],
     },
   ];
-
+  certification = [
+    {
+      title: 'Certified Tester -Foundation Level (CTFL)',
+      institution: 'ISTQB',
+      dateOfIssue: '25th Nov 2024',
+      credential: '24-CTFL-00293-KENYA',
+      CertificateLimk:
+        'https://1drv.ms/b/c/7fada62c15571154/EQ7Bnt6nkupIsn1kycKS31oB45a9gzMkjhoJubnPTZ1Cwg?e=EN0LYQ',
+    },
+    {
+      title: 'Python Core',
+      institution: 'Udemy',
+      dateOfIssue: 'Sept 2019',
+      credential: 'UC-B35EF82U',
+      CertificateLimk: 'ude.my/UC-B35EF82U',
+    },
+    {
+      title: 'Android Development',
+      institution: 'Google Developers',
+      dateOfIssue: '30th June 2022',
+      credential: '',
+      CertificateLimk:
+        'https://1drv.ms/b/c/7fada62c15571154/EVQRVxUspq0ggH9GFQAAAAABCzM9U2YM8cn_5mAIjEBoZQ?e=h9qyF9',
+    },
+    {
+      title: 'Software Engineering',
+      institution: 'ALX',
+      dateOfIssue: '2022',
+      credential: '2405D73DD69F9325',
+      CertificateLimk: 'https://adscerts.com/scholar/2405D73DD69F9325',
+    },
+    {
+      title: 'Data Protection Act – Kenya',
+      institution: 'Equity Group Academy',
+      dateOfIssue: 'Nov - 2024',
+      credential: 'umPeWLAOut',
+      CertificateLimk:
+        'https://learning.equitybankgroup.com/mod/customcert/view.php?id=2553&forceview=1',
+    },
+    {
+      title: 'Web Development Bootcamp',
+      institution: 'Udemy',
+      dateOfIssue: 'July 2023',
+      credential: 'UC-d4656c42-5646-4fd0-9481-0a5a7de3bf99',
+      CertificateLimk:
+        'https://www.udemy.com/certificate/UC-d4656c42-5646-4fd0-9481-0a5a7de3bf99/',
+    },
+    {
+      title: 'MERN Stack Course - MongoDB, Express, React and NodeJS',
+      institution: 'Udemy',
+      dateOfIssue: 'Nov - 2023',
+      credential: 'UC-e490a7dc-f1e5-4c43-8b50-e4b9e5ca79a9',
+      CertificateLimk:
+        'https://www.udemy.com/certificate/UC-e490a7dc-f1e5-4c43-8b50-e4b9e5ca79a9/',
+    },
+  ];
   education = [
     {
       year: 'Sept 2022 - Oct 2023',

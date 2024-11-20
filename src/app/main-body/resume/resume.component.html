@@ -3,8 +3,10 @@
     <div class="resume-box">
       <h2 class="heading2">Why Hire me?</h2>
       <p class="desc">
-        Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum non
-        cursus interdum dignissim ullamcorper neque.
+        This section presents a detailed overview of my professional journey,
+        highlighting roles where I contributed to impactful outcomes and honed
+        my expertise. Each position reflects my ability to adapt, lead, and
+        deliver value in dynamic work environments.
       </p>
 
       <button class="resume-btn active">Experience</button>
@@ -19,8 +21,10 @@
       <div class="resume-detail experience active">
         <h2 class="resume-heading">My <span>Experience</span></h2>
         <p class="desc">
-          Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum non
-          cursus interdum dignissim ullamcorper neque.
+          This section presents a detailed overview of my professional journey,
+          highlighting roles where I contributed to impactful outcomes and honed
+          my expertise. Each position reflects my ability to adapt, lead, and
+          deliver value in dynamic work environments.
         </p>
         <div class="resume-list">
           <div class="resume-item" *ngFor="let items of experience">
@@ -38,8 +42,11 @@
       <div class="resume-detail education">
         <h2 class="resume-heading">My <span>Education</span></h2>
         <p class="desc">
-          Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum non
-          cursus interdum dignissim ullamcorper neque.
+          This section highlights my academic achievements and the foundation of
+          knowledge that supports my professional expertise. Each qualification
+          represents a milestone in my commitment to learning and growth,
+          equipping me with the skills and insights necessary for success in my
+          field.
         </p>
         <div class="resume-list">
           <div class="resume-item" *ngFor="let items of education">
@@ -59,68 +66,23 @@
           My <span>Licenses and Certifications</span>
         </h2>
         <p class="desc">
-          Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum non
-          cursus interdum dignissim ullamcorper neque.
+          This section showcases the professional certifications I have earned,
+          demonstrating my commitment to continuous learning and mastery of
+          industry standards. Each certification reflects my dedication to
+          staying current in my field and enhancing my expertise to deliver
+          exceptional value.
         </p>
         <div class="resume-list">
-          <div class="resume-item">
-            <h3>Data Protection Awareness</h3>
-            <p class="year">Equity Group Academy</p>
-            <p>Issued Nov 2024</p>
-            <p>Credential ID umfnfaFAFNfnfafd</p>
+          <div class="resume-item" *ngFor="let items of certification">
+            <h3>{{ items.title }}</h3>
+            <p class="year">{{ items.institution }}</p>
+            <p>Issued {{ items.dateOfIssue }}</p>
+            <p>Credential ID {{ items.credential }}</p>
             <p class="cert-link">
               View certificate
-              <a href="#"><i class="bx bx-link-external"></i></a>
-            </p>
-          </div>
-          <div class="resume-item">
-            <h3>Data Protection Awareness</h3>
-            <p class="year">Equity Group Academy</p>
-            <p>Issued Nov 2024</p>
-            <p>Credential ID umfnfaFAFNfnfafd</p>
-            <p class="cert-link">
-              View certificate
-              <a href="#"><i class="bx bx-link-external"></i></a>
-            </p>
-          </div>
-          <div class="resume-item">
-            <h3>Data Protection Awareness</h3>
-            <p class="year">Equity Group Academy</p>
-            <p>Issued Nov 2024</p>
-            <p>Credential ID umfnfaFAFNfnfafd</p>
-            <p class="cert-link">
-              View certificate
-              <a href="#"><i class="bx bx-link-external"></i></a>
-            </p>
-          </div>
-          <div class="resume-item">
-            <h3>Data Protection Awareness</h3>
-            <p class="year">Equity Group Academy</p>
-            <p>Issued Nov 2024</p>
-            <p>Credential ID umfnfaFAFNfnfafd</p>
-            <p class="cert-link">
-              View certificate
-              <a href="#"><i class="bx bx-link-external"></i></a>
-            </p>
-          </div>
-          <div class="resume-item">
-            <h3>Data Protection Awareness</h3>
-            <p class="year">Equity Group Academy</p>
-            <p>Issued Nov 2024</p>
-            <p>Credential ID umfnfaFAFNfnfafd</p>
-            <p class="cert-link">
-              View certificate
-              <a href="#"><i class="bx bx-link-external"></i></a>
-            </p>
-          </div>
-          <div class="resume-item">
-            <h3>Data Protection Awareness</h3>
-            <p class="year">Equity Group Academy</p>
-            <p>Issued Nov 2024</p>
-            <p>Credential ID umfnfaFAFNfnfafd</p>
-            <p class="cert-link">
-              View certificate
-              <a href="#"><i class="bx bx-link-external"></i></a>
+              <a href="{{ items.CertificateLimk }}"
+                ><i class="bx bx-link-external"></i
+              ></a>
             </p>
           </div>
         </div>
@@ -130,8 +92,11 @@
       <div class="resume-detail skills">
         <h2 class="resume-heading">My <span>Skills and attributes</span></h2>
         <p class="desc">
-          Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum non
-          cursus interdum dignissim ullamcorper neque.
+          This section highlights my core professional competencies and
+          technical expertise. I provide a comprehensive snapshot of the skills
+          I bring to the table, tailored to meet the dynamic needs of my field.
+          From technical proficiency to interpersonal strengths, these skills
+          showcase my readiness to excel in diverse professional settings.
         </p>
         <div class="resume-list">
           <div class="resume-item" *ngFor="let items of Skills">

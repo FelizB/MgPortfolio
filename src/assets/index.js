@@ -104,7 +104,7 @@ resumeBtns.forEach((btn, idx) => {
   });
 });
 
-/*-------carousel slide-----------*/
+/*-------carousel slide-----------
 
 const arrowRight = document.querySelector(
   ".portfolio-box .navigation .arrow-right"
@@ -153,4 +153,4 @@ arrowLeft.addEventListener("click", () => {
     activePortfolio();
   }
 });
-activePortfolio();
+activePortfolio(); */
