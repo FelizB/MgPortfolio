@@ -2,13 +2,13 @@
   "name": "felix-portfolio-a",
   "version": "0.0.0",
   "scripts": {
-    "start": "http-server dist/felix-portfolio-a -p $PORT",
-    "build": "ng build --configuration production",
+    "start": "node dist/felix-portfolio-a/server/main.js",
+    "build": "ng build --configuration production && ng run felix-portfolio-a:server",
+    "serve:ssr": "node dist/felix-portfolio-a/server/main.js",
     "buildP": "ng build --configuration production",
     "serve": "ng serve",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:Felix-Portfolio-A": "node dist/felix-portfolio-a/server/server.mjs"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
