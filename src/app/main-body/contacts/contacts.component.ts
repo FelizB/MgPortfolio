@@ -64,8 +64,12 @@ export class ContactsComponent {
   }
 
   contactInformation = [
-    { contact: '+254765887292', icon: 'bx bxs-phone', item: 'Phone' },
-    { contact: 'felantezb@gmail.com', icon: 'bx bxs-envelope', item: 'Email' },
+    { contact: '+254719158618', icon: 'bx bxs-phone', item: 'Phone' },
+    {
+      contact: 'wanjirunjoroge190@gmail.com',
+      icon: 'bx bxs-envelope',
+      item: 'Email',
+    },
     { contact: 'Nairobi, Kenya', icon: 'bx bxs-map', item: 'Address' },
   ];
 }

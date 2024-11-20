@@ -480,6 +480,9 @@ span {
 .resume-box .desc {
   margin: 2rem 0 2.5rem;
 }
+p .info {
+  font-size: 1rem;
+}
 .resume-box .resume-btn {
   width: 100%;
   height: 5.3rem;
@@ -540,10 +543,16 @@ span {
   font-size: 2.2rem;
   color: var(--text-color);
 }
+h4 {
+  color: var(--text-color);
+}
 .resume-item .company {
   position: relative;
   margin-left: 2rem;
   margin-bottom: 2rem;
+}
+.resume-item .info {
+  font-size: 1.3rem;
 }
 .resume-item .company::before {
   content: "";

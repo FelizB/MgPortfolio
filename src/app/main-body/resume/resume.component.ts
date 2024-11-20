@@ -11,234 +11,141 @@ import { CommonModule } from '@angular/common';
 export class ResumeComponent {
   experience = [
     {
-      year: 'July 2022 - Current',
-      title: 'Senior System Test Lead',
-      company: 'Equity Group, Equity Centre',
+      year: 'Jan 2023 - Current',
+      title: 'Intern- Finance and Accounts ',
+      company: 'Office of the controller of budget',
       information: [
-        'Manual Testing',
-        'API Testing',
-        'Automation Testing- UI and API',
-        'UAT Test Lead',
-        'Quality Assurance',
+        'Preparing invoices for suppliers',
+        'Preparing bank and account reconciliations',
+        'Exchequer requisitions',
+        'Making payments to suppliers through the system',
+        'Payment of employees’ statutory deductions on time.',
+      ],
+    },
+
+    {
+      year: 'Nov 2022 - Nov 2023',
+      title: 'Direct sales executive ',
+      company: 'I&M Bank Ltd Kenya, Kenyatta Avenue branch ',
+      information: [
+        'Responsible for clients consulting on loan products, credit cards, banc assurance and other products.',
+        'Appraisal of customers credit worthiness.',
+        'Relationship management with existing clients.',
       ],
     },
     {
-      year: 'June 2021 – July 2022',
-      title: 'Relationship Officer',
-      company: 'Equity Bank Kenya, Kilimani Branch',
+      year: 'Sept 2021 – Sept 2022',
+      title: 'Payments officer',
+      company: 'Equity Bank, Kenya, Kilimani Branch ',
       information: [
-        'Teller',
-        'Customer Service Representative',
-        'ABC Account Opening Specialist',
-        'Digital Champion',
+        'Responsible for marketing payment products, attending to merchants and coordinating the sales team.',
+        'Assisted customer service experience desk',
+        'Plan events related to trainings, team building, farewells',
       ],
     },
     {
-      year: 'August -September 2017',
-      title: 'Digital Agent',
-      company: 'Step-Wise ',
+      year: 'May 2019 - August',
+      title: 'Finance Assistant (Intern) ',
+      company: 'National Social Security Fund (NSSF) ',
       information: [
-        'Judicial System Digitization Project',
-        'Data management and uploads to the system',
-        'Document handling processes',
+        'Responsible for opening new account for members of the public',
+        'Served as a customer service officer assisting on customer queries internally and externally.',
+        'Processing payments for the elderly.',
       ],
     },
     {
-      year: 'August -September 2019',
-      title: 'Enumerator',
-      company: 'Kenya National Bureau of Statistics (KNBS) ',
-      information: ['Taking Census'],
-    },
-    {
-      year: 'Oct 2019 – Dec 2021',
-      title: 'Data Analyst',
-      company: 'Cloud Factory Kenya ',
+      year: 'Feb 2015 – August',
+      title: 'Store and Records Clerk',
+      company: 'Buildmore Construction Company',
       information: [
-        'Data processing',
-        'Statistical Methods',
-        'Advanced Tracking',
-        'Advanced Excel',
-        'Presentation and public speaking',
-        'Transcription',
-      ],
-    },
-    {
-      year: 'August -September 2017',
-      title: 'Polling Clerk',
-      company: 'Independent Electoral and Boundaries Commission (IEBC)',
-      information: [
-        'Tasked with ensuring good conduct of elections in the polling station',
-      ],
-    },
-    {
-      year: 'Feb 2016 – August 2016',
-      title: 'Relationship Officer -Intern',
-      company: 'Equity Bank Kenya Limited',
-      information: [
-        'Mobile banking and digital champion in the operations Department',
-        'Marketing and onboarding the Equitel sim card',
-        'ATM issuing, Account opening and Customer service',
+        'Storing and managing hard copy and digital records of the company and updating records in the system.',
+        'Creating Statistics for presentation and reporting purposes',
       ],
     },
   ];
   certification = [
     {
-      title: 'Certified Tester -Foundation Level (CTFL)',
-      institution: 'ISTQB',
-      dateOfIssue: '25th Nov 2024',
-      credential: '24-CTFL-00293-KENYA',
-      CertificateLimk:
-        'https://1drv.ms/b/c/7fada62c15571154/EQ7Bnt6nkupIsn1kycKS31oB45a9gzMkjhoJubnPTZ1Cwg?e=EN0LYQ',
-    },
-    {
-      title: 'Python Core',
-      institution: 'Udemy',
-      dateOfIssue: 'Sept 2019',
-      credential: 'UC-B35EF82U',
-      CertificateLimk: 'ude.my/UC-B35EF82U',
-    },
-    {
-      title: 'Android Development',
-      institution: 'Google Developers',
-      dateOfIssue: '30th June 2022',
+      title: 'Certified Public accountant CPA',
+      institution: 'KASNEB',
+      dateOfIssue: 'June 2024',
       credential: '',
-      CertificateLimk:
-        'https://1drv.ms/b/c/7fada62c15571154/EVQRVxUspq0ggH9GFQAAAAABCzM9U2YM8cn_5mAIjEBoZQ?e=h9qyF9',
-    },
-    {
-      title: 'Software Engineering',
-      institution: 'ALX',
-      dateOfIssue: '2022',
-      credential: '2405D73DD69F9325',
-      CertificateLimk: 'https://adscerts.com/scholar/2405D73DD69F9325',
-    },
-    {
-      title: 'Data Protection Act – Kenya',
-      institution: 'Equity Group Academy',
-      dateOfIssue: 'Nov - 2024',
-      credential: 'umPeWLAOut',
-      CertificateLimk:
-        'https://learning.equitybankgroup.com/mod/customcert/view.php?id=2553&forceview=1',
-    },
-    {
-      title: 'Web Development Bootcamp',
-      institution: 'Udemy',
-      dateOfIssue: 'July 2023',
-      credential: 'UC-d4656c42-5646-4fd0-9481-0a5a7de3bf99',
-      CertificateLimk:
-        'https://www.udemy.com/certificate/UC-d4656c42-5646-4fd0-9481-0a5a7de3bf99/',
-    },
-    {
-      title: 'MERN Stack Course - MongoDB, Express, React and NodeJS',
-      institution: 'Udemy',
-      dateOfIssue: 'Nov - 2023',
-      credential: 'UC-e490a7dc-f1e5-4c43-8b50-e4b9e5ca79a9',
-      CertificateLimk:
-        'https://www.udemy.com/certificate/UC-e490a7dc-f1e5-4c43-8b50-e4b9e5ca79a9/',
+      CertificateLimk: '',
     },
   ];
   education = [
     {
-      year: 'Sept 2022 - Oct 2023',
-      title: 'Certificate in Software Development',
-      institution: 'ALX Academy',
+      year: 'Jan 2020 – Dec 2023',
+      title: 'CPA F Finalist',
+      institution: 'Summit Institute of Professionals',
       information:
-        'Specialized on Back-end development using C#, python, JavaScript',
+        'Company law and financial management, Auditing and management accounting, Public Finance and Taxation',
     },
     {
-      year: 'Sep 2016 - Dev 2021',
-      title: 'Bachelor of Tech in Communication and Computer Networks',
-      institution: 'The Technical University of Kenya',
+      year: 'Aug 2015 – April 2019',
+      title: 'Bachelor of Science in Agri-business with IT',
+      institution: 'Maseno University',
       information: 'Awarded Second class Upper Division',
     },
     {
-      year: 'Jan 2012 - Nov 2015',
-      title: 'Kenya Certificate of Secondary Education (KCSE)',
-      institution: 'Nyambaria School',
-      information: 'Attained an A- in KCSE',
+      year: 'Feb 2015 - June',
+      title: 'Certificate in Computer Packages ',
+      institution: ' Kenya Institute of Management',
+      information:
+        'Internet and Email,Microsoft office and typing,Visual Basic and computer maintenance, Sage Accounting   ',
     },
     {
-      year: 'Jan 2003 - Nov 2011',
+      year: 'Feb 2011 – Nov 2014',
+      title: 'Kenya Certificate of Secondary Education (KCSE)',
+      institution: 'Gatero Girls High School',
+      information: 'Attained a B+ of 68 points',
+    },
+    {
+      year: 'Jan 2001 – Dec 2010',
       title: 'Kenya Certificate of Primary Education (KCPE)',
-      institution: 'AEF Reuben Primary School',
-      information: 'Attained an 362 marks in KCPE',
+      institution: 'Adaned Shining Stars Academy',
+      information: 'Attained a B+ of 368, I occupied the head girl position',
     },
   ];
 
-  certifications = [
-    {
-      title: '',
-      institution: '',
-      issueDate: '',
-      certificateID: '',
-      externalLink: '',
-    },
-  ];
   Skills = [
     {
-      icon: 'bx bxl-kubernetes',
-      skillName: 'Software Testing & QA',
+      icon: '',
+      skillName: 'Information Technology',
       information:
         'Expertise in software testing automation tools (RobotFramework, Selenium WebDriver)',
     },
     {
-      icon: 'bx bxs-meteor',
-      skillName: 'Methodologies',
+      icon: '',
+      skillName: 'Sales and Marketing skills',
       information: 'Agile, DevOps, CI/CD, Robot Framework',
     },
     {
-      icon: 'bx bxl-dev-to',
-      skillName: 'Software Development',
+      icon: '',
+      skillName: 'Excellent Verbal and written Communication Skills',
       information:
         'Strong foundation and intermittent in software development principles and practices',
     },
     {
-      icon: 'bx bxl-creative-commons',
-      skillName: 'Interpersonal & Communication',
+      icon: '',
+      skillName:
+        'Good Accountancy Skills using in sage, pastel and quick books',
       information:
-        'Effective communicator with the ability to interact with diverse teams and stakeholders.',
+        'Good Accountancy Skills using in sage, pastel and quick books',
     },
     {
-      icon: 'bx bx-spreadsheet',
-      skillName: 'Problem-Solving',
-      information:
-        'Strong analytical skills with a focus on continuous improvement and problem-resolution',
+      icon: '',
+      skillName: 'Professional skills',
+      information: 'Professional skills',
     },
     {
-      icon: 'bx bxl-html5',
-      skillName: 'HTML',
-      information:
-        'Proficient in creating well-structured and semantic web pages.',
+      icon: '',
+      skillName: 'Good Computing and digital Skills',
+      information: 'Good Computing and digital Skills',
     },
     {
-      icon: 'bx bxl-css3',
-      skillName: 'CSS3',
-      information:
-        'Experienced in designing responsive and visually appealing layouts.',
-    },
-    {
-      icon: 'bx bxl-bootstrap',
-      skillName: 'BootStrap',
-      information:
-        'Skilled in leveraging Bootstrap for fast and responsive UI development.',
-    },
-    {
-      icon: 'bx bxl-angular',
-      skillName: 'Angular',
-      information:
-        'Capable of building dynamic and scalable front-end applications.',
-    },
-    {
-      icon: 'bx bxl-react',
-      skillName: 'React.js',
-      information:
-        'Experienced in developing reusable components and managing state effectively.',
-    },
-    {
-      icon: 'bx bxl-javascript',
-      skillName: 'JavaScript',
-      information:
-        'Proficient in writing efficient and maintainable JavaScript code.',
+      icon: '',
+      skillName: 'Good leadership skills',
+      information: 'Good leadership skills',
     },
   ];
 
@@ -246,16 +153,16 @@ export class ResumeComponent {
     return new Date().getFullYear() - 1997;
   };
   personalInformation = [
-    { name: 'Name', item: 'Felix Bosire' },
-    { name: 'Age', item: this.age() },
+    { name: 'Name', item: 'Margaret Wanjiru Njoroge' },
+    { name: '', item: '' },
     { name: 'Nationality', item: 'Kenyan' },
     { name: 'Availability', item: 'Full Time' },
-    { name: 'Phone', item: '+254765887292' },
+    { name: 'Phone', item: '254719158618' },
     { name: 'Language', item: 'English, Swahili' },
-    { name: 'Gender', item: 'Male' },
+    { name: 'Gender', item: 'Female' },
     { name: 'City', item: 'Nairobi, Kenya' },
-    { name: 'Experience', item: '5+ Years of Work Experience' },
+    { name: 'Experience', item: '4+ Years of Work Experience' },
     { name: 'Freelance', item: 'Available' },
-    { name: 'Email', item: 'felantezb@gmail.com' },
+    { name: 'Email', item: 'wanjirunjoroge190@gmail.com' },
   ];
 }

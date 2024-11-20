@@ -31,7 +31,7 @@
             <p class="year">{{ items.year }}</p>
             <h3>{{ items.title }}</h3>
             <p class="company">{{ items.company }}</p>
-            <p *ngFor="let info of items.information">
+            <p class="info" *ngFor="let info of items.information">
               {{ info }}
             </p>
           </div>
@@ -102,7 +102,7 @@
           <div class="resume-item" *ngFor="let items of Skills">
             <i class="{{ items.icon }}"></i>
             <span>{{ items.skillName }}</span>
-            <h5>{{ items.information }}</h5>
+            <h4>{{ items.information }}</h4>
           </div>
         </div>
       </div>
