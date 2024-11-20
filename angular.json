@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "MgPortfolio": {
+    "Felix-Portfolio-A": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/MgPortfolio",
+            "outputPath": "dist/felix-portfolio-a",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -28,7 +28,7 @@
             "styles": ["src/styles.css", "src/assets/index.css"],
             "scripts": ["src/assets/index.js"],
             "server": "src/main.server.ts",
-            "prerender": false,
+            "prerender": true,
             "ssr": {
               "entry": "server.ts"
             }
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "MgPortfolio:build:production"
+              "buildTarget": "Felix-Portfolio-A:build:production"
             },
             "development": {
-              "buildTarget": "MgPortfolio:build:development"
+              "buildTarget": "Felix-Portfolio-A:build:development"
             }
           },
           "defaultConfiguration": "development"
