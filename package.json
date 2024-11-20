@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "start": "http-server dist/felix-portfolio-a -p $PORT",
-    "build": "ng build --prod",
-    "buildP": "ng build --prod",
+    "build": "ng build --configuration production",
+    "buildP": "ng build --configuration production",
     "serve": "ng serve",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
