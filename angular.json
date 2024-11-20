@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Felix-Portfolio-A": {
+    "MgPortfolio": {
       "projectType": "application",
       "schematics": {},
       "root": "",

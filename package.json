@@ -1,5 +1,5 @@
 {
-  "name": "felix-portfolio-a",
+  "name": "MgPortfolio",
   "version": "0.0.0",
   "scripts": {
     "start": "node dist/MgPortfolio/server/main.js",
